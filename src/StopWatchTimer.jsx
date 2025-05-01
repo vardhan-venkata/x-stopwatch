@@ -36,7 +36,7 @@ function StopWatchTimer() {
 
   return (
     <div style={styles.container}>
-      <h1 style={styles.title}>StopWatchTimer</h1>
+      <h1 style={styles.title}>Stopwatch</h1>
       <h2 style={styles.time}>Time: {formatTime(seconds)}</h2>
       <div style={styles.buttons}>
         <button onClick={handleStartStop} style={styles.button}>
